@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css_files %}
+   <link rel="stylesheet" href="{% static 'projecthasena/css/style.css' %}">
+{% endblock %}
+
+{% block title%} Homepage{% endblock %}
+
+{% block content %}
+ <ul>
+    <li><a href="">Homepage</a></li>
+    <li><a href="">Blogs</a></li>
+ </ul>
+  <h1>Homepage</h1>
+
+{% endblock %}
+
+{% block js_files %}
+<script src="{% static 'projecthasena/js/script.js' %}"></script>
+{% endblock %}

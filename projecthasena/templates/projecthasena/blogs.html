@@ -1,0 +1,62 @@
+
+{% block title%} BEST SELLERS {% endblock %} 
+
+{% block content %}
+{% load static %}
+
+    <div class="container mt-3">
+        <div class="row">
+   
+            <div class="col-9">
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                            <img src= "{% static 'img/1.jpg' %}" alt="" class="img-fluid" width="300" height="300">>
+                        <div class="vol-md-9"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Strawberry Patterned Ceramic Mug</h5>
+                            <p class="card-text">Handmade-strawberry mug. (Varnished after painting with acrylic / only hand wash)</p>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                            <img src="{% static 'img/6.jpg' %}" alt="" class="img-fluid" width="300" height="300">>
+                        <div class="vol-md-9"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">White Cat Patterned Ceramic Mug</h5>
+                            <p class="card-text">Handmade-white (Ankara) cat patterned mug. All proceeds from this cup were donated to stray animals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                            <img src="{% static 'img/7.jpg' %}" alt="" class="img-fluid" width="300" height="300">>
+                        <div class="vol-md-9"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Cat Patterned Ceramic Mug</h5>
+                            <p class="card-text">Handmade-Istanbul cat patterned mug. All proceeds from this cup were donated to stray animals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                            <img src="{% static 'img/8.jpg' %}" alt="" class="img-fluid" width="300" height="300">>
+                        <div class="vol-md-9"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Grey Cat Patterned Ceramic Mug</h5>
+                            <p class="card-text">Handmade-Hasen's cat patterned mug.All proceeds from this cup were donated to stray animals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock %}
